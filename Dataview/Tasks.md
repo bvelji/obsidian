@@ -21,3 +21,15 @@ as priority
 SORT priority
 ```
 ````
+
+Alternative option using tasks query 
+````
+```tasks
+filter by function task.file.path.includes('Tasks/')
+not done
+show tree
+short mode
+group by filename
+sort by priority
+```
+````
